@@ -1,0 +1,29 @@
+<view>
+  <view class="table">
+    <view class="title">
+      <!-- <view class="userinfor"></view> -->
+      <image src="../../../img/chinalife.jpg" mode="widFix" style="width: 750rpx; height: 282rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+      <view class="title-infor">报名信息</view>
+    </view>
+   
+    <form class="page_bd" bindsubmit="formSubmit">
+      <view class="table-infor">
+        <view class="infor">姓名</view>
+        <input name="Name" type="text" auto-focus placeholder="请输入新人姓名"/>
+      </view>
+      <view class="table-infor">
+        <view class="infor">身份证号</view>
+        <input name="Id" type="idcard"  maxlength="18" auto-focus placeholder="请输入新人身份证号"/>
+      </view>
+      <view class="table-infor">
+        <view class="infor">手机号</view>
+        <input name="Phone" type="number"  maxlength="11" auto-focus placeholder="请输入新人手机号"/>
+      </view>
+      <view class="table-infor">
+        <view class="infor">推荐人工号</view>
+        <input name="Cord" type="number" maxlength="14" auto-focus placeholder="推荐人工号"/>
+      </view>
+      <button form-type="submit">提交</button>
+    </form>
+  </view>
+</view>

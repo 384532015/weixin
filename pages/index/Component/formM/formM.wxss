@@ -1,0 +1,39 @@
+.title-infor{
+  display: flex ;
+  justify-content: center;
+  /* background: darkgray; */
+  font-size: 200%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:700;
+  line-height: 450%;
+}
+.title{
+  display: flex;
+  /* height: 30px; */
+  flex-direction: column;
+  top: 0ch;
+}
+
+image{
+  padding:20px;
+}
+
+.table{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+  line-height: 200%;
+
+}
+.table-infor{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.infor{
+  width: 25%;
+}
+/* input{
+  
+} */
