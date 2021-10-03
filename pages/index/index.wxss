@@ -3,19 +3,31 @@
 .main{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .title{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
+
 }
 .box{
   display: flex;
-  justify-content: center;
-  align-items: center; 
+  /* justify-content: center; */
+  /* align-items: center;  */
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0%;
 }
-navigator{
+.box-choice {
+  text-align: center;
+  font-size: 14px;
+  width: 45px;
+  line-height: 1;
+  padding: 20px;
+}
+.navigator{
   display: flex;
   flex-direction: column;
   justify-content: center;

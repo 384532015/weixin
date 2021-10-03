@@ -1,23 +1,17 @@
 // pages/index/Component/form/form.js
-Component({
-    /**
-     * 组件的属性列表
-     */
-    properties: {
-
+Page({
+    data:{
+        allvalue:""
     },
-
-    /**
-     * 组件的初始数据
-     */
-    data: {
-
-    },
-
-    /**
-     * 组件的方法列表
-     */
-    methods: {
-
+    bindsubmit:function(e){
+        this.setData({
+            allvalue:e.detail.value
+        })
+        wx.request({
+          url: 'url',
+          method:"post",
+          data:allvalue
+        })
+        this.setData({allvalue:""})
     }
 })

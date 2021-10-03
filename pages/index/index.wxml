@@ -1,19 +1,25 @@
 <!--index.wxml-->
 <view class="main">
   <view class="title">
-    <image></image>
-    <text>中国人寿德州分公司</text>
+    <image src="../img/chinalife-main.jpg" style="width: 750rpx; height: 612rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+    <!-- <text>中国人寿德州分公司</text> -->
   </view>
-  <view class="box">
+  <view class="box" style="width: 750rpx; height: 230rpx; display: flex; box-sizing: border-box; left: NaNrpx; botton: 0">
     <navigator url="Component/formM/formM">
-      <view>
-        <image></image>
-        <text>保普班报名</text>
+      <view class="box-choice" style="width: 230rpx; height: 270rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+        <image mode="widthFix" src="../img/index-active.png"  style="width: 141rpx; height: 242rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+        <text>报名</text>
       </view>
     </navigator>
     <navigator>
-      <view>
-        <image></image>
+      <view class="box-choice" style="width: 230rpx; height: 270rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+        <image mode="widthFix" src="../img/sort-active.png" style="width: 141rpx; height: 242rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+        <text>报名汇总</text>
+      </view>
+    </navigator>
+    <navigator>
+      <view class="box-choice" style="width: 230rpx; height: 270rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+        <image mode="widthFix" src="../img/head-active.png" style="width: 141rpx; height: 242rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
         <text>工单</text>
       </view>
     </navigator>
